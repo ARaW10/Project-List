@@ -57,7 +57,7 @@ h1 {
 
 /* Scrollable project list */
 .scroll-list {
-    max-height: 200px;
+    max-height: 300px;
     overflow-y: auto;
     padding-right: 5px;
 }
@@ -88,9 +88,15 @@ h1 {
 }
 
 .project-title {
-    flex: 1;
     font-size: 16px;
     color: #2d3436;
+    flex: 1;
+}
+
+/* Link group aligned to the right */
+.link-group {
+    display: flex;
+    gap: 10px;
 }
 
 /* Button styles */
@@ -100,7 +106,6 @@ h1 {
     text-decoration: none;
     color: white;
     font-weight: bold;
-    margin-left: 10px;
     transition: background 0.3s;
 }
 
