@@ -63,7 +63,7 @@ h1 {
 }
 
 .scroll-list::-webkit-scrollbar {
-    width: 4px;
+    width: 8px;
 }
 
 .scroll-list::-webkit-scrollbar-thumb {
