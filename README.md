@@ -1,2 +1,3 @@
 # About-Me
-Let me introduce myself through this website
+
+Let me introduce myself and my project or my school project through this website
