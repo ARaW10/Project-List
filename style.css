@@ -8,7 +8,7 @@
 
 /* Background and layout */
 body {
-    background: linear-gradient(to right, #6a9c89, #c4dad2);
+    background: linear-gradient(to right, #16423c, #6a9c89);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -76,7 +76,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #c4dad2;
+    background-color: #e9efec;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 10px;
@@ -84,7 +84,7 @@ h1 {
 }
 
 .project-item:hover {
-    background-color: #abc4bb;
+    background-color: #cbd6d1;
 }
 
 .project-title {
@@ -124,5 +124,5 @@ h1 {
 }
 
 .wokwi-btn:hover {
-    background-color: #4a96e2;
+    background-color: #2781db;
 }
