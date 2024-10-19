@@ -8,7 +8,7 @@
 
 /* Background and layout */
 body {
-    background: linear-gradient(to right, #6A9C89, #C4DAD2);
+    background: linear-gradient(to right, #6a9c89, #c4dad2);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -67,7 +67,7 @@ h1 {
 }
 
 .scroll-list::-webkit-scrollbar-thumb {
-    background-color: #6A9C89;
+    background-color: #6a9c89;
     border-radius: 10px;
 }
 
@@ -76,7 +76,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #C4DAD2;
+    background-color: #c4dad2;
     border-radius: 8px;
     padding: 10px;
     margin-bottom: 10px;
