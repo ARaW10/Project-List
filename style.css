@@ -1,4 +1,4 @@
-/* Reset styling */ 
+/* Reset styling */
 * {
     margin: 0;
     padding: 0;
@@ -55,7 +55,38 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Scrollable project list */
+/* Scroll wrapper with gradient effect */
+.scroll-wrapper {
+    position: relative;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+/* Gradient overlays */
+.scroll-wrapper:before,
+.scroll-wrapper:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    height: 20px;
+    pointer-events: none;
+    z-index: 1;
+}
+
+/* Top gradient */
+.scroll-wrapper:before {
+    top: 0;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+/* Bottom gradient */
+.scroll-wrapper:after {
+    bottom: 0;
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
+/* Scrollable list */
 .scroll-list {
     max-height: 300px;
     overflow-y: auto;
