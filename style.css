@@ -1,4 +1,4 @@
-
+/* Reset styling */
 * {
     margin: 0;
     padding: 0;
@@ -55,14 +55,14 @@ h1 {
     margin-bottom: 20px;
 }
 
-/* Scroll wrapper with gradient effect */
+/* Scroll wrapper with gradient overlay */
 .scroll-wrapper {
     position: relative;
     max-height: 300px;
     overflow: hidden;
 }
 
-/* Gradient overlays */
+/* Top and bottom gradient overlays */
 .scroll-wrapper:before,
 .scroll-wrapper:after {
     content: '';
@@ -123,6 +123,7 @@ h1 {
     font-size: 18px;
     font-weight: bold;
     font-family: monospace;
+    margin-left: 5px;
     color: #2d3436;
     flex: 1;
 }
@@ -157,4 +158,32 @@ h1 {
 
 .wokwi-btn:hover {
     background-color: #2781db;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 600px) {
+    /* Keep title and buttons side by side, but stack buttons vertically */
+    .project-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start; /* Align items to top */
+    }
+
+    /* Reduce button size */
+    .btn {
+        padding: 5px 10px;
+        font-size: 14px;
+        margin-left: 8px;
+    }
+
+    /* Stack buttons vertically on mobile */
+    .link-group {
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    /* Adjust title font size for smaller screens */
+    .project-title {
+        font-size: 16px;
+    }
 }
